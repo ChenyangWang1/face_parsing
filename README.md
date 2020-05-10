@@ -29,6 +29,17 @@ Just run the train script:
 
 If you do not wish to train the model, you can download [our pre-trained model](https://drive.google.com/open?id=154JgKpzCPW82qINcVieuPH3fZ2e0P812) and save it in `res/cp`.
 
+## Challenge
+
+1. Challenge dataset
+    
+    -- download [vschallenge](https://pan.baidu.com/s/1OKplGxDSrtQB6hZvhLPiKQ  key：j7po)
+    	
+		including training and validating dataset
+    
+    -- download [test_set_a](https://pan.baidu.com/s/1kq6SrcrRHZl1yTddFHRkAQ  key：vcof)
+    	
+		including testing dataset
 
 ## Demo
 1. Evaluate the trained model using:
