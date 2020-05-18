@@ -6,7 +6,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torchvision
-
 from resnet import Resnet18
 # from modules.bn import InPlaceABNSync as BatchNorm2d
 
@@ -279,5 +278,4 @@ if __name__ == "__main__":
     in_ten = torch.randn(16, 3, 640, 480).cuda()
     out, out16, out32 = net(in_ten)
     print(out.shape)
-
     net.get_params()
